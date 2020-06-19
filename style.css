@@ -1,0 +1,498 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 120%;
+}
+
+#titulo{
+    text-align: center;
+
+}
+form #usr, #email, #pwd, #pwd1{
+width: 300px;
+
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+
+.alert {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 20px 4px 20px;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-shadow: none;
+    position: relative;
+    background-color: #272e3b;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #000;
+    box-shadow: 0 0 0 1px #363d49 inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+}
+.alert-error {
+    color: #f00;
+    background-color: #360e10;
+    box-shadow: 0 0 0 1px #551e21 inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+}
+.alert:empty{
+    display: none;
+}
+.alert-success {
+    color: #21ec0c;
+    background-color: #15360e;
+    box-shadow: 0 0 0 1px #2a551e inset, 0 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+
+/*////////////////////////////////pag principal////////////////////*/
+
+
+.container-fluid {
+    background:#99CC66;
+    height: 70px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 3%;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    padding: 3%;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: auto;
+    font-size: 10px;
+}
+
+.capa{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.capa_i{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+.info{
+    max-width: 100%;
+    max-height: 50px;
+}
+
+.titulo{
+    font-size: 20px;
+    float: left;
+}
+
+.autor {
+    font-size: 15px;
+    float: left;
+    left: 0;
+}
+.preço {
+    font-size: 20px;
+    float: right;
+}
+
+.form-control {
+    height: 45px;
+}
+
+#search{
+    background:white;
+    height: 44px;
+}
+
+.button {
+    color: black;
+    background-color: rgba(153, 204, 102, 0.5);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-right:30px;
+}
+
+.buttonP {
+    float:right;}
+
+.ola{
+    float: right;
+    font-size:15px;
+    color:white;
+    margin-right:40px;
+}
+
+.col-sm-offset-2 col-sm-10 {
+    float:right;
+}
+
+.page-header {
+    border-bottom: 1.5px solid #333;
+}
+
+form .btn-default {
+    color: black;
+    background: white;
+    border-radius: 20px;
+    font-seize:10px;
+}
+
+.buttonNR {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 20px 2px;
+    margin-left: 30px;
+    margin-right:30px;
+    border-radius: 0px;
+}
+
+a{
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+.linha {
+    border-bottom: 1.5px solid #333;
+}
+
+
+/*//////////////////////////visualizar////////////////////*/
+
+
+
+
+.capa_v{
+    width: 25%;
+    position: relative;
+    float: left;
+    margin-left:5%;
+}
+
+.info_v{
+    height: 300px;
+    width: 70%;
+    position: relative;
+    float: right;
+}
+
+.b {
+    width: 100%;
+    position: relative;
+}
+
+.comment{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.buttonL {
+    margin-left:0%;
+}
+
+/*//////////////////////////comentarios////////////////////*/
+
+.comment2 {
+    font-size:20px;
+    position: relative;
+    width:90%;
+    margin-left: 5%;
+    font-weight: bold;
+
+}
+
+.autor {
+    font-size: 15px;
+    position: relative;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+
+/*//////////////////////////rating////////////////////*/
+
+.rating {
+    font-size: 15px;
+    float:left;
+    margin-left:4%;
+    position: relative;
+    margin-top: 5%;
+}
+.ratingb {
+    float:right;
+    margin-right:50%;
+}
+
+/*//////////////////////////opiniao////////////////////*/
+
+.opiniao{
+    float:left;
+    width: 100%;
+    margin-top: 5%;
+
+}
+
+
+/*//////////////////////////notificaçoes////////////////////*/
+
+.box {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index: 200;
+}
+.notifications {
+    width:40px;
+    height:40px;
+    border-radius:30px;
+    box-sizing:border-box;
+    text-align:center;
+}
+.notifications:hover {
+    width:300px;
+    height:60px;
+    text-align:left;
+    padding:0 15px;
+    background:#3c763d;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+
+.notifications:hover .fa {
+    color:#fff;
+}
+.notifications .fa {
+    color:#cecece;
+    line-height:60px;
+    font-size:30px;
+}
+.notifications .num {
+    position:absolute;
+    top:0;
+    right:-5px;
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:#ff2c74;
+    color:#fff;
+    line-height:25px;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+
+.notifications:hover .num {
+    position:relative;
+    background:transparent;
+    color:#fff;
+    font-size:24px;
+    top:-4px;
+}
+.notifications:hover .num:after {
+    content:' Notification';
+}
+.notifications ul {
+    position:absolute;
+    left:0;
+    top:50px;
+    margin:0;
+    width:100%;
+    background:#fff;
+    box-shadow:0 5px 15px rgba(0,0,0,.5);
+    padding:20px;
+    box-sizing:border-box;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    display:none;
+}
+
+.notifications:hover ul {
+    display:block;
+}
+.notifications ul li {
+    list-style:none;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    padding:8px 0;
+    display:flex;
+}
+.notifications ul li:last-child {
+    border-bottom:none;
+}
+.notifications ul li .icon {
+    width:24px;
+    height:24px;
+    background:#ccc;
+    border-radius:50%;
+    text-align:center;
+    line-height:24px;
+    margin-right:15px;
+}
+.notifications ul li .icon .fa {
+    color:#fff;
+    font-size:16px;
+    line-height:24px;
+}
+.notifications ul li .text {
+    position:relative;
+    font-family:sans-serif;
+    top:3px;
+    cursor:pointer;
+}
+.notifications ul li:hover .text {
+    font-weight:bold;
+    color:#3c763d;
+}
+
+.fa-bell:before {
+    content: url(icones/noti.png);
+    align-content: center;
+
+}
+
+
+
+/*//////////////////////////carrinho////////////////////*/
+
+.book_compra {
+    height: 300px;
+    width: 35%;
+    position: relative;
+    float: left;
+}
+
+.book_compra2 {
+    height: 300px;
+    width: 40%;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    font-size: 20px;
+}
+.comprab{
+    width: 30%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+/*//////////////////////////historico////////////////////*/
+
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th{
+    background-color: #99CC66;
+}
+
+
+/*//////////////////////////carrinho e favoritos////////////////////*/
+
+.book_compra {
+    height: 300px;
+    width: 35%;
+    position: relative;
+    float: left;
+}
+
+.book_compra2 {
+    height: 300px;
+    width: 40%;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    font-size: 20px;
+}
+.comprab{
+    width: 30%;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/*//////////////////////////notificaçoes no perfil////////////////////*/
+
+
+.switch{
+    float:left;
+    margin-right:10px;
+
+}
+
+.alterar{
+    color: black;
+    background-color: rgba(153, 204, 102, 0.5);
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 30px;
+
+}
+
+
+.switch2{
+    float:left;
+    margin-right:10px;
+    font-size: 20px;
+
+}
+
+
+
